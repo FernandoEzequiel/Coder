@@ -1,4 +1,8 @@
 # Coder
 
-https://www.kaggle.com/code/gulsahdemiryurek/mobile-price-classification-with-svm/notebook
+## GitHub Profesor
+https://github.com/Luis-ramirez-r/CH-32845
+
+## GitHub Coder
+https://github.com/dfbustosus/Proyectos_DS
 
