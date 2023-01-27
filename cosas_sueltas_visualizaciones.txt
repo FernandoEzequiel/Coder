@@ -1,0 +1,34 @@
+# separa los datos de la potencia generada por dia por cada mes
+x1 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((1,1))].groupby('day_year').mean()
+y1 = x1['day']
+x2 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((2,2))].groupby('day_year').mean()
+y2 = x2['day']
+x3 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((3,3))].groupby('day_year').mean()
+y3 = x3['day']
+x4 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((4,4))].groupby('day_year').mean()
+y4 = x4['day']
+x5 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((5,5))].groupby('day_year').mean()
+y5 = x5['day']
+x6 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((6,6))].groupby('day_year').mean()
+y6 = x6['day']
+x7 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((7,7))].groupby('day_year').mean()
+y7 = x7['day']
+x8 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((8,8))].groupby('day_year').mean()
+y8 = x8['day']
+x9 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((9,9))].groupby('day_year').mean()
+y9 = x9['day']
+x10 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((10,10))].groupby('day_year').mean()
+y10 = x10['day']
+x11 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((11,11))].groupby('day_year').mean()
+y11 = x11['day']
+x12 = df_DataSet2_dia.loc[df_DataSet2_dia['month'].isin((12,12))].groupby('day_year').mean()
+y12 = x12['day']
+
+
+#df_Dataset_anio = df_DataSet2.groupby('Year').mean()
+#fig, ax = plt.subplots(figsize=(12, 3))  
+#ax.plot(df_DataSet2.index, df_DataSet2['Relative Humidity'], hue='Year', label='Precipitaciones de enero')
+#ax.plot(df_lluvias.index, df_lluvias['Feb'], label='Precipitaciones de febrero', color='C1')
+#ax.axhline(maximo_enero, color='red', linestyle='--', alpha=0.5,    linewidth=3, label='Máxima de enero')
+#ax.axhline(maximo_febrero, color='red', linestyle=':', alpha=0.5, linewidth=3, label='Máxima de febrero')
+#ax.legend()
